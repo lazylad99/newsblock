@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	font-family: 'Stick No Bills', sans-serif;
+}
+
+body {
+	height: 100vh;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
+		url("../public/paper.png");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+	box-shadow: inset 0 0 5rem rgba(0, 0, 0, 1.0);
+}
+
+.card-title,
+.card-text,
+.card-text small {
+	text-shadow: none;
+}
+
+.category-title {
+	border-bottom: 5px solid whitesmoke;
+	display: inline-block;
+	width: fit-content;
+	color: whitesmoke;
+	text-shadow: 0 0.05rem 0.1rem rgba(255, 255, 255, 0.5);
+}
+
+.container-fluid {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+.navbar-brand {
+	text-shadow: 1px 1px 3px grey;
+}
+
+.nav-link {
+	margin: 0;
+	font-weight: 450;
+	font-size: medium;
+	margin-left: 1rem;
+	border-bottom: 3px solid transparent;
+	display: inline-block;
+	width: fit-content;
+}
+
+.nav-link:hover {
+	color: black;
+	border-bottom-color: black;
+}
+
+.nav-link.active {
+	color: black;
+	border-bottom-color: black;
+}
+
+@media (max-width: 409px) {
+	.container-fluid {
+		flex-direction: row;
+		justify-content: left;
+		text-align: left;
+	}
+}
+
+@media (min-width:410px) and (max-width: 995px) {
+	.container-fluid {
+		flex-direction: column;
+		text-align: center;
+	}
+}
+
+
+
+.cssload-container {
+	position: relative;
+}
+
+.cssload-whirlpool,
+.cssload-whirlpool::before,
+.cssload-whirlpool::after {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border: 1px solid rgb(204, 204, 204);
+	border-left-color: rgb(0, 0, 0);
+	border-radius: 974px;
+	-o-border-radius: 974px;
+	-ms-border-radius: 974px;
+	-webkit-border-radius: 974px;
+	-moz-border-radius: 974px;
+}
+
+.cssload-whirlpool {
+	margin: -24px 0 0 -24px;
+	height: 49px;
+	width: 49px;
+	animation: cssload-rotate 1150ms linear infinite;
+	-o-animation: cssload-rotate 1150ms linear infinite;
+	-ms-animation: cssload-rotate 1150ms linear infinite;
+	-webkit-animation: cssload-rotate 1150ms linear infinite;
+	-moz-animation: cssload-rotate 1150ms linear infinite;
+}
+
+.cssload-whirlpool::before {
+	content: "";
+	margin: -22px 0 0 -22px;
+	height: 43px;
+	width: 43px;
+	animation: cssload-rotate 1150ms linear infinite;
+	-o-animation: cssload-rotate 1150ms linear infinite;
+	-ms-animation: cssload-rotate 1150ms linear infinite;
+	-webkit-animation: cssload-rotate 1150ms linear infinite;
+	-moz-animation: cssload-rotate 1150ms linear infinite;
+}
+
+.cssload-whirlpool::after {
+	content: "";
+	margin: -28px 0 0 -28px;
+	height: 55px;
+	width: 55px;
+	animation: cssload-rotate 2300ms linear infinite;
+	-o-animation: cssload-rotate 2300ms linear infinite;
+	-ms-animation: cssload-rotate 2300ms linear infinite;
+	-webkit-animation: cssload-rotate 2300ms linear infinite;
+	-moz-animation: cssload-rotate 2300ms linear infinite;
+}
+
+
+
+@keyframes cssload-rotate {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@-o-keyframes cssload-rotate {
+	100% {
+		-o-transform: rotate(360deg);
+	}
+}
+
+@-ms-keyframes cssload-rotate {
+	100% {
+		-ms-transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes cssload-rotate {
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@-moz-keyframes cssload-rotate {
+	100% {
+		-moz-transform: rotate(360deg);
+	}
+}
+
+.form-control {
+	width: 600px;
+}
+
+p {
+	color: black;
+	padding: 10px;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 25px
+}
+
+.search-title {
+	text-shadow: 1px 1px 2px black;
+}
+
