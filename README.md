@@ -14,7 +14,7 @@ NewsBlock is a news-fetching web application that allows users to get the latest
 To run NewsBlock locally, follow these steps:
 
 1. Clone the repository:
-git clone https://github.com/your-username/newsblock.git
+git clone https://github.com/lazylad99/newsblock.git
 
 2. Navigate to the project directory:
 cd newsblock
